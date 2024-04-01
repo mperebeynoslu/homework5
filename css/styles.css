@@ -439,6 +439,10 @@ display: inline-block;
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
+
+.footer-media{
+    margin-right: 80px;
+}
   
 .footer-social-all {
     display: flex;
@@ -475,7 +479,6 @@ display: inline-block;
 .footer-form {
     align-items: end;
     display: flex;
-    margin-left: 80px;
     gap: 24px;
 }
   
@@ -485,7 +488,6 @@ display: inline-block;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
-    margin-left: 80px;
     margin-bottom: 16px;
 }
   
@@ -528,7 +530,13 @@ display: inline-block;
     background-color: #4d5ae5;
     color: #fff;
     cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   }
+
+.footer-subscribe-butn:hover, .footer-subscribe-butn:focus {
+    background-color: #404bbf;
+}
   
 .footer-suscribe-icon {
     display: flex;
@@ -623,7 +631,6 @@ display: inline-block;
 .title-modal {
     display: block;
     margin-bottom: 4px;
-    margin-top: 8px;
     color: #8e8f99;
     font-size: 12px;
     line-height: 1.17;
@@ -740,7 +747,7 @@ display: inline-block;
     display: block;
     text-align: center;
     padding: 16px 32px;
-    margin: 24px auto;
+    margin: auto;
     background-color: #4d5ae5;
     border-radius: 4px;
     border: none;
@@ -754,5 +761,9 @@ display: inline-block;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
   
+.send-butn:hover, .send-butn:focus {
+    background-color: #404bbf;
+}
+
 
   
